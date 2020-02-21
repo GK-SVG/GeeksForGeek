@@ -1,0 +1,3 @@
+/home/gautam/Documents/GeeksForGeek/Easy/primeNumber/Prime-til-lnumberis1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeNumber/Prime-til-lnumberis1/cmake-build-debug/CMakeFiles/Prime_til_lnumberis1.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeNumber/Prime-til-lnumberis1/cmake-build-debug/CMakeFiles/edit_cache.dir

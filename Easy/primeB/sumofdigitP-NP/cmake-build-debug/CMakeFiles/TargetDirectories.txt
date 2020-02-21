@@ -1,0 +1,3 @@
+/home/gautam/Documents/GeeksForGeek/Easy/primeB/sumofdigitP-NP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeB/sumofdigitP-NP/cmake-build-debug/CMakeFiles/sumofdigitP_NP.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeB/sumofdigitP-NP/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,3 @@
+/home/gautam/Documents/GeeksForGeek/Easy/primeB/Wrange/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeB/Wrange/cmake-build-debug/CMakeFiles/Wrange.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeB/Wrange/cmake-build-debug/CMakeFiles/edit_cache.dir

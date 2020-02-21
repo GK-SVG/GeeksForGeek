@@ -1,0 +1,3 @@
+/home/gautam/Documents/GeeksForGeek/Easy/primeNumber/prime1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeNumber/prime1/cmake-build-debug/CMakeFiles/prime1.dir
+/home/gautam/Documents/GeeksForGeek/Easy/primeNumber/prime1/cmake-build-debug/CMakeFiles/edit_cache.dir

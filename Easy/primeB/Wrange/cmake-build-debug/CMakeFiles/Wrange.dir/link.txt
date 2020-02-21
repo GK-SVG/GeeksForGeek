@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Wrange.dir/main.cpp.o  -o Wrange 

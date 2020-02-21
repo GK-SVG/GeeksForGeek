@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sumofdigitP_NP.dir/main.cpp.o  -o sumofdigitP_NP 
