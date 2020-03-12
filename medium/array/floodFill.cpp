@@ -6,7 +6,7 @@ int main()
     cin>>t;
     while (t--)
     {
-        int n,m,max=0,max1=0,count=0;
+        int n,m;
         cin>>n>>m;
         int arr[n][m];
         for (int i = 0; i < n; i++)
@@ -17,26 +17,31 @@ int main()
             }
             
         }
+        int x,y,k,l;
+        cin>>x>>y>>k;
+        l=arr[x][y];
+        arr[x][y]=k;
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m; j++)
             {
-                if (arr[i][j]==1)
+                if (arr[i][j]==l)
                 {
-                    count++;
+                    arr[i][j]=k;
                 }
-                
             }
-           // cout<<count<<endl;
-            if(count>max)
-            {
-                max=count;
-                max1=i;
-            }
-            count=0;
+            
         }
-        cout<<max1<<endl;
-        
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < m; j++)
+            {
+                cout<<arr[i][j]<<" ";
+            }
+            
+        }
+        cout<<endl;
+
     }
     return 0;
 }

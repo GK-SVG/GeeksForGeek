@@ -7,36 +7,34 @@ int main()
     while (t--)
     {
         int n;
+        int arr[]={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,51,53};
         cin>>n;
-        int num=n,con=1,count1=0,count2=0,count3=0;
-        while (con)
-        {
-            num--;
-            count1++;
-            for (int i = 2; i*i < num; i++)
-            {
-                if(num%i==0)
+       // cout<<"n="<<n<<endl;
+        int num;
+            for (int i = 0; i < 17; i++)
+            { 
+              int count1=0;
+              num=n;
+              num-=arr[i];
+            //   cout<<"num="<<num<<" arr="<<arr[i]<<endl;
+              for (int j = 2; j*j < num; j++)
+              {
+                  cout<<j<<endl;
+                if(num%j==0)
                 {
-                    count2++;
+                    count1++;
                 }
-            }
-            for(int j=2;j*j<count1;j++)
-            {
-                if(count1%j==0)
+              }  
+              cout<<"count="<<count1<<endl;      
+              if(count1==0)
+              {
+                if(arr[i]+num==n)
                 {
-                    count3++;
+                    cout<<arr[i]<<" "<<num<<endl;
+                    break;
                 }
+              }
             }
-            if(count2==0 && count3==0)
-            {
-                if(count1+num==n)
-                {
-                    con--;
-                    cout<<count1<<" "<<num<<endl;
-                }
-            }
-        
-    }
     
   }
   return 0;

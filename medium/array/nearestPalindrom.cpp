@@ -19,9 +19,9 @@ int main()
           count=count*10; 
        }
        int con=1;
-       sum1=sum1+1;
        while(con)
        {
+           sum1=sum1+1;
            sum3=sum1;
            while(sum3>0)
              {
@@ -34,7 +34,6 @@ int main()
              {
                con--;
              }    
-            sum1=sum1+1;
        }
        for (int i = n-1; i >= 0 ; i--)
        {
