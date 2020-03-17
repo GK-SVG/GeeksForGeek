@@ -2,19 +2,6 @@
 #include<sstream>
 #include<math.h>
 using namespace std;
-int kadane(int arr[] , int n)
-{
-     for (int i = 1; i <= n; i++)
-     {
-         int arr2[i];
-         for (int j = 0; j <i; j++)
-         {
-             
-         }
-         
-     }
-     
-}
 int main()
 {
     int t;
