@@ -23,16 +23,21 @@ int main()
             for (int j = 0; j < 3; j++)
             {
                 if(adjacent==j)
-                continue;
+                {
+                   if(min==arr[i][j])
+                   min=arr[i][j+1];
+                   continue;;
+                }
                 else
                 {
+                  
                   if(arr[j][i]<=min)
                   {
                     min=arr[j][i];
                     adjacent=j;
                   }
                 }
-               cout<<min<<endl;
+              // cout<<min<<endl;
             }
             sum+=min;
         }
