@@ -1,8 +1,5 @@
 #include<iostream>
 using namespace std;
-#define nl printf("\n")
-typedef long long int ll;
-
 int modExp(int a, int b, int c){
     if(b==0)
         return 1;
