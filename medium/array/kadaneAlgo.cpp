@@ -1,39 +1,40 @@
-#include<iostream>
-#include<sstream>
-#include<math.h>
-using namespace std;
-int kadane(int arr[] , int n)
-{
-     for (int i = 1; i <= n; i++)
-     {
-         int arr2[i];
-         for (int j = 0; j <i; j++)
-         {
-             
-         }
-         
-     }
-     
-}
-int main()
-{
+// C++ program to print maximum contiguous array sum 
+#include<iostream> 
+#include<climits> 
+using namespace std; 
+
+int kadane(int a[], int size) 
+{ 
+	int max= INT_MIN, sum = 0; 
+
+	for (int i = 0; i < size; i++) 
+	{ 
+		sum += a[i]; 
+		if (max < sum) 
+			max = sum; 
+
+		if (sum< 0) 
+			sum = 0; 
+	} 
+	return max; 
+} 
+
+
+int main() 
+{ 
     int t;
     cin>>t;
     while (t--)
-    {
-        string s,s1;
-        char l;
-        int sum=0,count=0;
-        cin>>s;
-        for(int i=s.length()-1;i>=0;i--)
-        {
-            s1=s.at(i);
-            stringstream ss(s1);
-            ss>>l;
-            sum+=pow(26,count)*((int)l-64);
-            count++;
-        }
-        cout<<sum;
-    }
-    
-}
+ {
+     int n;
+      cin>>n;
+	  int a[n];
+      for (int i = 0; i < n; i++)
+      {
+          cin>>a[i];
+      }
+	int max_sum = kadane(a, n); 
+	cout<< max_sum<<endl;
+ }
+	return 0; 
+} 

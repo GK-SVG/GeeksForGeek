@@ -6,34 +6,34 @@ int main()
     cin>>t;
     while (t--)
     {
-        int n,sum=0,adjacent=-1;
+         int n,adjacent=-1;
+         long long int sum=0;
         cin>>n;
-        int arr[n][3];
-        for (int i = 0; i < n; i++)
+        long long int arr[n][3];
+        for (long long int i = 0; i < n; i++)
         {
-            for (int j = 0; j < 3; j++)
+            for ( int j = 0; j < 3; j++)
             {
                 cin>>arr[i][j];
             }
             
         }
-        for (int i = 0; i < n; i++)
+        for (long long int i = 0; i < n; i++)
         {
             int min=arr[i][0];
-            for (int j = 0; j < 3; j++)
+            for ( int j = 0; j < 3; j++)
             {
                 if(adjacent==j)
                 {
                    if(min==arr[i][j])
                    min=arr[i][j+1];
-                   continue;;
                 }
                 else
                 {
                   
-                  if(arr[j][i]<=min)
+                  if(arr[i][j]<=min)
                   {
-                    min=arr[j][i];
+                    min=arr[i][j];
                     adjacent=j;
                   }
                 }
