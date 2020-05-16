@@ -29,17 +29,14 @@ int main()
                       if(i%j==0)
                       count1++;
                     }
-                  //  cout<<i<<" ";
                   }
                 }
                 if (count1==0)
                 {
                     count2++;
-                   // cout<<i<<" "<<count1<<" "<<count2<<endl;
                 }
             } 
         }
-        //printf("%d\n",count2);
         totalnum-=count2;
         totalnum-=count2;
         printf("%d\n",totalnum);
