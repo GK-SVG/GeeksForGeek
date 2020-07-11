@@ -1,3 +1,5 @@
+#include<iostream>
+using namespace std;
 void printArr(int arr[],int n)
 {
     //Your code for printing array here
